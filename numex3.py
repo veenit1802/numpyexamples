@@ -1,4 +1,8 @@
 import numpy as np
+"""
+author -> Veenit Kumar Shukla
+detail -> moving average of 3 months and 5 months
+"""
 a=np.array([5,8,7,8,8,9,7,9,5,7,5,8])
 k=np.size(a)
 l=[]
