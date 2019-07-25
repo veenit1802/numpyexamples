@@ -8,7 +8,7 @@ k=np.size(a)
 l=[]
 p=[]
 i=0
-while i<np.size(a):
+while i<k:
     if(i>=2):
         p.append(round((a[i]+a[i-1]+a[i-2])/3,2))
     if(i>=4):
